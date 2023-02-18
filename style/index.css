@@ -124,32 +124,15 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
-.education ul li .name{
-    color: white;
-    font-weight: 600;
-}
-.education ul li .name span {
-    font-size: 0.8em;
-    font-weight: 200;
-}
-
-.education ul li .year {
-    color: white;
-    font-size: 0.8em;
-}
-
-.education ul li .score {
-    color: white;
-    font-size: 0.8em;
-}
 
 .color-black-text {
     color: black;
 }
-
+.color-white-text {
+    color: white;
+}
 .color-blue-text {
     color: #003147;
 }
@@ -185,4 +168,31 @@ a {
 
 .list-style-none {
     list-style: none;
+}
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .container .left_bar {
+        border-radius: 10px;
+    }
 }
