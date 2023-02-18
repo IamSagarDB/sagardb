@@ -145,3 +145,44 @@ a {
     color: white;
     font-size: 0.8em;
 }
+
+.color-black-text {
+    color: black;
+}
+
+.color-blue-text {
+    color: #003147;
+}
+
+.break-line {
+    margin: 15px 0px;
+    border-bottom: 1px solid #003147;;
+}
+
+.work-role {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work-responsibility {
+    margin-left: 30px;
+    list-style:disc;
+}
+
+.work-responsibility b {
+    font-weight: 400px;
+}
+
+.font-size-p8em {
+    font-size: 0.8em;
+}
+
+.tech-skills span {
+    margin-left: 10px;
+}
+
+.list-style-none {
+    list-style: none;
+}
