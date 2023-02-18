@@ -179,6 +179,10 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+
+    body {
+        margin: 10px;
+    }
     .container {
         display: flex;
         flex-direction: column;
@@ -194,14 +198,16 @@ a {
 
     .container .left_bar {
         border-radius: 10px;
-    }
-
-    .work-responsibility {
-        margin-left: 15px;
+        padding: 30px;
     }
 
     .container .right_bar {
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
+        padding: 30px;
+    }
+
+    .work-responsibility {
+        margin-left: 15px;
     }
 }
