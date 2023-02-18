@@ -195,4 +195,8 @@ a {
     .container .left_bar {
         border-radius: 10px;
     }
+
+    .work-responsibility {
+        margin-left: 15px;
+    }
 }
