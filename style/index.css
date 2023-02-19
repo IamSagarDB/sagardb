@@ -178,6 +178,23 @@ a {
     display: none;
 }
 
+.resume-download  {
+    background-color: white;
+    position: relative;
+    display: flex;
+    color: #003147;
+    top: 30px;
+    padding: 15px 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.resume-download a {
+    color: #003147;
+}
+
 @media only screen and (max-width: 600px) {
 
     body {
@@ -209,5 +226,9 @@ a {
 
     .work-responsibility {
         margin-left: 15px;
+    }
+
+    .resume-download{
+        top: 0;
     }
 }
